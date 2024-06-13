@@ -1,0 +1,41 @@
+Loader :
+
+HTML :
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>loader</title>
+  <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+   <div class="loader"></div>
+</body>
+</html>
+
+CSS :
+
+
+.loader{
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+    border: 20px solid white ;
+    border-top: 20px solid gray ;
+    animation: spinAnimate  1s ease-in-out 0s infinite normal ;
+   
+}
+
+
+
+
+@keyframes spinAnimate{
+    form{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
